@@ -1,0 +1,17 @@
+@media(max-width:1000px) {
+    .explanation-container {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:670px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .explanation-container {
+        font-size: 15px;
+        width: 85%;
+        margin: 0 auto;
+    }
+}
