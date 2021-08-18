@@ -1,0 +1,112 @@
+@media(max-width:1000px) {
+    .menu {
+        display: none;
+    }
+    .main-image {
+        height: 500px;
+    }
+    .main-box h1 {
+        font-size: 30px;
+    
+    }
+
+    #about,#works,#contact {
+        font-size: 40px;
+    }
+
+    .myphoto {
+        margin: 0 auto;
+    }
+    .myname {
+        font-size: 20px;
+    }
+    .introduction {
+       flex-direction: column;
+    }
+    .first-half {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+    .sentences {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sentence {
+        width: 90%;
+    }
+
+    .product {
+        flex-direction: column;
+    }
+    .product-image,.product-introduce {
+        width: 70%;
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+
+    .contact-form input,textarea {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .submit-btn {
+        width: 50%;
+    }
+}
+
+@media(max-width:670px) {
+    .header-right {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    .menu-mordal {
+        display: none;
+    }
+    .main-image {
+        height: 300px;
+    }
+    .main-box h1 {
+        font-size: 30px;
+    }
+
+    #about,#works,#contact {
+        font-size: 30px;
+    }
+    .main-image {
+        height: 200px;
+    }
+
+    .myphoto {
+        width: 40%;
+    }
+    .introduction {
+        font-size: 15px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .first-half {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .pr-image {
+        font-size: 40px;
+        padding: 13px;
+        margin:10px 5px;
+    }
+    .sentence {
+        width: 100%;
+    }
+
+    .product-image,.product-introduce {
+        width: 90%;
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+
+}
