@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>ポートフォリオ</title>
+        <link rel="stylesheet" href="top.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <div class="header-left">
+                    <p>Portfolio</p>
+                </div>
+                <div class="header-right">
+                    <ul>
+                        <li><a class="about" href="#about"><span class="far fa-address-card"></span>About</a></li>
+                        <li><a class="works" href="#works"><span class="fas fa-calculator"></span>Works</a></li>
+                        <li><a class="contact" href="#contact"><span class="far fa-envelope"></span>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <span class="fas fa-bars menu-icon"></span>
+                    <div class="menu-mordal open">
+                        <div class="mordal-container">
+                            <ul>
+                                <li><a class="about" href="#about">About</a></li>
+                                <li><a class="works" href="#works">Works</a></li>
+                                <li><a class="contact" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </header>
+        <div class="main">
+            <div class="main-container">
+                <div class="main-box">
+                    <img src="image/IMG_0792.JPG" alt="" class="main-image">
+                    <h1 id="about"><i>About</i></h1>
+                </div>
+                <div class="introduction-box">
+                    <div class="introduction">
+                        <img src="image/IMG_mp.JPG" alt="" class="myphoto">
+                        <div class="first-half">
+                            <p class="myname">八城　実里 / Misato Yashiro</p>
+                            <p>1991年7月19日生まれ</p>
+                            <div class="career">
+                                <p>神奈川大学を卒業後、半年間の語学留学を経て郵便局で約５年にわたり、窓口における郵便・貯金・保険業務を担当。<br>業務の制度改正にて新システムが導入された際、手続きが簡略化された反面利便性が悪いと感じ、自分でより使いやすいシステムを作りたいとプログラミングに興味を持つ。<br>退職後、独学でプログラミングの学習を開始。</p>
+                            </div>
+                            <div class="skill">
+                                <p>ITパスポート / 2021年5月19日取得<br>ProgateにてHTML、CSS、JavaScript、jQuery、SQL、Node.js、PHPを学習。<br>Visual Studio Code、Git Hubを使用しポートフォリオを作成。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pr">
+                            <p class="sub-title">～自己PR～</p>
+                            <div class="sentences">
+                                <div class="sentence">
+                                    <p class="title"><span class="fas fa-graduation-cap pr-image"></span>成長意欲</p>
+                                    <p class="sentence-p">約５年間の営業の中で、常に学ぶ姿勢を大切にしました。<br>営業知識を身に付けるための資格の取得や時間外研修への自主的な参加、先輩社員との話法の練習などに励みました。<br>結果、初年度からノルマを達成。今後は新たなフィールドで研鑚を積みたいと考えております。</p>
+                                </div>
+                                <div class="sentence">
+                                    <p class="title"><span class="fas fa-users pr-image"></span>コミュニケーション能力</p>
+                                    <p class="sentence-p">お客さまのニーズを引き出す為よく話を聞き、質問を交えながら情報収集し、最適と思われる商品の提案へと繋げました。<br>結果、新規顧客の取得率は上昇。社員間でも連携を大切にし、効率的に業務を進めました。<br>チームワークが期待される職場において、コミュニケーション能力を遺憾なく発揮できると自負しております。</p>
+                                </div>
+                            </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        <div class="main-works">
+            <div class="main-works-container">
+                <h1 id="works"><i>Works</i></h1>
+                <div class="products">
+                    <div class="product">
+                        <img src="image/works-1.png" alt="works-1" class="product-image">
+                        <div class="product-introduce">
+                            <h3>web電卓アプリ</h3>
+                            <p>HTML, CSS, JavaScriptを使い仕上げた電卓。<br>JavaScriptに慣れるために作成したため、簡単な機能のみ搭載しました。<br><a href="calculator/index.html" target="_blank">こちら</a>から確認できます。</p>
+                        </div>
+                    </div>
+                    <div class="product">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form method="POST" action="top.php">
+            <div class="contact-container">
+                <h1 id="contact"><i>Contact</i></h1>
+                <div class="contact-form">
+                    <p><i>Name</i></p>
+                    <input type="text" name="name" value="" id="name" placeholder="必ず入力してください"><p id="error-message1" class="error-message"></p>
+                    <p><i>E-mail</i></p>
+                    <input type="email"　name="email" value="" id="email" placeholder="必ず入力してください"><p id="error-message2" class="error-message"></p>
+                    <p><i>Message</i></p>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="必ず入力してください"></textarea><p id="error-message3" class="error-message"></p>
+                </div>
+                <input class="submit-btn" type="submit" value="Send" onclick="" id="submit">
+            </div>
+        </form>
+        <footer>
+            <div class="footer-container">
+                <p>&copy;2021　Misato Yashiro</p>
+            </div>
+        </footer>
+    <script src="top.js"></script>
+    </body>
+</html>
