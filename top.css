@@ -185,7 +185,7 @@ header span {
 
 /* ここからform */
 form {
-    display : ;
+    display :none;
 }
 
 .contact-form {
