@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    margin: 0 0 0 0;
+    background-color: rgb(226, 239, 250);
+}
+
+/* ここからheader */
+
+header {
+    max-width: 2000px;
+    height:80px;
+    width: 100%;
+    color: rgb(22, 22, 97);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    background-color: rgb(108, 210, 228);
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    opacity: 0.9;
+}
+
+.header-left {
+    float: left;
+    padding-left: 30px;
+}
+
+.header-right ul{
+    display: flex;
+    text-align: right;
+    margin-right: 13px;
+    float:right;
+}
+
+.header-right a,.mordal-container a {
+    text-decoration: none;
+}
+
+header li {
+    padding-right: 30px;
+    display: inline-block;
+ }
+
+header span {
+    padding-right: 5px;
+}
+
+.menu {
+    float: right;
+    display: none;
+}
+
+.menu-icon {
+    float: right;
+    font-size:50px;
+    color: rgb(22, 22, 97);
+    padding: 15px 20px 0 0 ;
+    cursor: pointer;
+}
+
+.mordal-container ul {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 10px;
+    
+}
+
+.mordal-container li {
+    border: 1px solid rgb(22, 22, 97);
+    border-radius: 10px;
+    background-color: rgba(108, 210, 228, 0.8);
+    padding: 10px 15px;
+}
+
+/*　ここからmain-box　*/
+
+.main-container {
+    width: 100%;
+    display: inline-block;
+}
+
+.thankyou {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+    color:rgb(33, 91, 199) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+    
+.form-box-container {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    color:rgb(33, 91, 199) ;
+    background-color: white;
+    border: 1px solid rgb(22, 22, 97);
+    border-radius: 20px;
+}
+
+.form-btn {
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+}
+
+#submit {
+    display: inline-block;
+    width: 5cm;
+    margin-top: 30px;
+    padding: 10px, 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    background-color: rgb(108, 210, 228);
+    border: 1px solid rgb(22, 22, 97);
+    box-shadow: 0px 3px rgb(22, 22, 97);
+}
+
+#submit:active {
+    box-shadow: none;
+    position: relative;
+    top: 3px;
+
+}
+
+
+/* ここからふったー */
+
+footer {
+    color: rgb(22, 22, 97);
+    text-align: right;
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(108, 210, 228);
+    padding-right: 10px;
+}
