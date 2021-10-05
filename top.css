@@ -185,7 +185,7 @@ header span {
 
 /* ここからform */
 form {
-    display: none;
+    display : block;
 }
 
 .contact-form {
@@ -200,8 +200,11 @@ form {
     border: none;
     background-color: rgb(red, green, rgb(223, 230, 228));
 }
+.contact-form textarea {
+    height: 3cm;
+}
 .submit-btn {
-    margin:20px 0 20px 20px;
+    margin:0px 0 20px 20px;
     width: 20%;
     padding: 10px 0;
     border-radius: 20px;
@@ -229,3 +232,7 @@ footer {
     background-color: rgb(108, 210, 228);
     padding-right: 10px;
 }
+
+
+
+
